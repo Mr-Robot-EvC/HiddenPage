@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>T3RM1N4L_4CC3SS</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <canvas id="matrix" class="matrix-bg"></canvas>
+    <div class="container">
+      <h1>[ R3STR1CT3D_4CC3SS ]</h1>
+
+      <div class="terminal">
+        <div id="access-log">
+          <p>> Establishing secure connection...</p>
+          <p>> Proxy tunneling through: node_6502.darknet</p>
+          <p>> Connection established.</p>
+          <p>> WARNING: Unauthorized access is prohibited</p>
+          <p>> Verification required<span class="blink">_</span></p>
+        </div>
+
+        <input
+          id="pw"
+          type="password"
+          placeholder="AUTH_TOKEN"
+          autocomplete="off"
+        />
+        <button onclick="decrypt()">DECRYPT</button>
+      </div>
+
+      <pre id="secret"></pre>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
