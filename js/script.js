@@ -73,6 +73,8 @@ function decrypt() {
     logAccess("> Authentication successful. Access granted.");
     logAccess('> Revealing classified data... <span class="blink">_</span>');
 
+    console.log("The only truly valuable currency in our lifetime is time and knowledge. Was the trade worth it?");
+
     // Make sure links in the decrypted text are clickable
     const linkedText = plain.replace(
       /(https?:\/\/[^\s]+)/g,
